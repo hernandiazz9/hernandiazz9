@@ -69,4 +69,7 @@ Today, I am looking for a job that allows me to continue growing personally and 
 
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
+
+
+cargar el logo y el link delportfolio a  how to reachme
 -->

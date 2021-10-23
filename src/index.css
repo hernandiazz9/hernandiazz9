@@ -65,28 +65,28 @@ video {
 }
 
 .btn {
-  border: 2px solid rgb(57, 134, 250);
+  border: 2px solid #f6f6f6;
   padding: 10px 1rem;
   border-radius: 5px;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
-  font-weight: 400;
+  font-weight: 400; 
   outline: none;
 }
 
 .PrimaryBtn {
-  background: rgb(57, 134, 250);
-  color: #f6f6f6;
-}
-
-.PrimaryBtn:hover {
-  background: #fff;
+  background: #f6f6f6;
   color: #010606;
 }
 
+.PrimaryBtn:hover {
+  background: rgba(255, 255, 255, 0);
+  color: #f6f6f6;
+}
+
 .SecondarBtn:hover {
-  background: rgb(57, 134, 250);
-  color: #fff;
+  background: #010606;
+  color: #f6f6f6;
 }
 
 .btn2 {
@@ -102,8 +102,8 @@ video {
 }
 
 .BigCard {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   padding-right: 2rem;
   padding-left: 2rem;
   border-radius: 1rem;
@@ -121,7 +121,7 @@ video {
   max-width: 650px;
   margin: 0 auto;
   color: #151418;
-  line-height: 1.6;
+  line-height: 1.8;
 }
 
 .tagline2 {
@@ -130,13 +130,14 @@ video {
 }
 
 .SectionTitle {
-  font-size: 38px;
-  color: #151418;
+  font-size: 45px;
+  color: #3DDC97;
   font-weight: 700;
   margin-bottom: 3.5rem;
 }
 .ProjectWrapper {
   margin-top: -1rem;
+  background-color: #3DDC97;
 }
 
 /* ------------------------------------ Media for Container */

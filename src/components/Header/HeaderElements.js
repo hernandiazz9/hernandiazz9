@@ -18,7 +18,7 @@ export const NavLink = styled(ScrollLink)`
   font-size: 1.2rem;
   align-items: center;
   height: 100%;
-  cursor: pointer;
+  cursor: pointer; 
   &:hover {
     color: #f6f6f6;
   }

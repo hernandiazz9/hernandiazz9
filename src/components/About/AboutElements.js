@@ -1,7 +1,11 @@
 import styled from "styled-components";
 
 export const ContactWrapper = styled.div`
-  margin-top: 5rem;
+  padding-bottom: 6rem;
+  padding-top: 3rem;
+  background-color: #242328;
+
+
 `;
 
 export const Image = styled.img`
