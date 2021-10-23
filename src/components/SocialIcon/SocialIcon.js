@@ -1,8 +1,5 @@
 import React from "react";
-import { FaLinkedin, FaInstagram, FaGithub, FaWhatsappSquare  } from "react-icons/fa";
-
-
-
+import { FaLinkedin, FaInstagram, FaGithub } from "react-icons/fa";
 
 import styled from "styled-components";
 
@@ -15,22 +12,20 @@ export const SocialDiv = styled.div`
     align-items: center;
     list-style: none;
   }
-
   a {
     font-size: 2.5rem;
     color: #151418;
     transition: 0.2s ease-in;
     &:hover {
-      color: rgb(57, 134, 250);
+      color: #3ddc97;
     }
   }
-
   .item + .item {
     margin-left: 2rem;
   }
-
   @media screen and (max-width: 768px) {
-    display: block;
+    display: none;
+    background-color: red;
   }
 `;
 

@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const ContactWrapper = styled.div`
-  margin: 5rem 0;
+  padding-top: 4rem ;
+  background-color: #151418;
 `;
 
 export const Email = styled.div`
@@ -10,17 +11,17 @@ export const Email = styled.div`
   flex-direction: row;
   justify-content: space-around;
   a {
-      font-size: .75rem;
+      font-size: 1.4rem;
       color: #151418;
       transition: 0.2s ease-in;
       &:hover {
-        color: rgb(57, 134, 250);
+        color: #3DDC97;
       }
     }
 
   @media (min-width: 576px) {
     a {
-      font-size: 1.5rem;
+      font-size: 1.8rem;
     }
   }
   @media (min-width: 992px) {

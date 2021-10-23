@@ -11,6 +11,7 @@ export const HeroContainer = styled.div`
   display: flex;
   flex-direction: column;
 
+
   @media (min-width: 576px) {
     max-width: 540px;
   }

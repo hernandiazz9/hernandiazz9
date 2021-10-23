@@ -22,7 +22,7 @@ const Social = styled.div`
     color: rgb(119, 119, 121);
     transition: 0.2s ease-in;
     &:hover {
-      color: rgb(57, 134, 250);
+      color: #3DDC97;
     }
   }
 
@@ -36,7 +36,7 @@ function FixSocialIcon() {
       <ul>
         <li className="item">
           <a
-            href="https://www.linkedin.com/in/gurusheshp/"
+            href="https://www.linkedin.com/in/hernan-diaz-daives/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -45,7 +45,7 @@ function FixSocialIcon() {
         </li>
         <li className="item">
           <a
-            href="https://github.com/gurupawar/"
+            href="https://github.com/hernandiazz9/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -54,7 +54,7 @@ function FixSocialIcon() {
         </li>
         <li className="item">
           <a
-            href="https://github.com/gurupawar/"
+            href="https://github.com/hernandiazz9/"
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -2,7 +2,7 @@ import React from "react";
 import ProjectCard from "./ProjectCard/ProjectCard";
 function Projects() {
   return (
-    <>
+    <div style={{background:'#3DDC97', paddingBottom:'2rem'}}>
       <svg
         height="100%"
         width="100%"
@@ -16,17 +16,17 @@ function Projects() {
           stroke="none"
           stroke-width="0"
           fill="#151418ff"
-          class="transition-all duration-300 ease-in-out delay-150"
+          className="transition-all duration-300 ease-in-out delay-150"
           transform="rotate(-180 720 200)"
         ></path>
       </svg>
       <div className="ProjectWrapper" id="projects">
         <div className="Container">
-          <div className="SectionTitle">Projects</div>
+          <div style={{color:'black'}} className="SectionTitle">Projects</div>
           <ProjectCard />
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
