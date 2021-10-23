@@ -1,18 +1,16 @@
 // --------------------------------------- Project List
-import appointManager from '../Assets/projects/appointManager.png'
-import coi from '../Assets/projects/coi.png'
-import crudRedux from '../Assets/projects/crudRedux.png'
-import mernTask from '../Assets/projects/mernTask.png'
-
-import dato from '../Assets/stackTech/dato.png'
-import firebase from '../Assets/stackTech/firebase.png'
-import mongo from '../Assets/stackTech/mongo.png'
-import node from '../Assets/stackTech/node.png'
-import postgres from '../Assets/stackTech/postgres.png'
-import react from '../Assets/stackTech/react.png'
-import redux from '../Assets/stackTech/redux.png'
-import slack from '../Assets/stackTech/slack.png'
-import trello from '../Assets/stackTech/trello.png'
+import appointManager from '../Assets2/projects/appointManager.png'
+import coi from '../Assets2/projects/coi.png'
+import crudRedux from '../Assets2/projects/crudRedux.png'
+import mernTask from '../Assets2/projects/mernTask.png'
+import firebase from '../Assets2/stackTech/firebase.png'
+import mongo from '../Assets2/stackTech/mongo.png'
+import node from '../Assets2/stackTech/node.png'
+import postgres from '../Assets2/stackTech/postgres.png'
+import react from '../Assets2/stackTech/react.png'
+import redux from '../Assets2/stackTech/redux.png'
+import slack from '../Assets2/stackTech/slack.png'
+import trello from '../Assets2/stackTech/trello.png'
 
 
 

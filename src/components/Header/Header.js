@@ -1,6 +1,6 @@
 
 import { Nav, Logo, NavLink, Bars, NavMenu, NavBtn } from "./HeaderElements";
-import logo from '../../Assets/logo.svg'
+import logo from '../../Assets2/logo.svg'
 
 const Header = ({ toggle }) => {
   return (

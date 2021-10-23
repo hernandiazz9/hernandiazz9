@@ -25,7 +25,7 @@ function ProjectCard() {
             <BtnGroup>
               <a
                 className="btn btn2 SecondarBtn"
-                href={list.github_url}
+                href={list.github_url.toString()}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -33,7 +33,7 @@ function ProjectCard() {
               </a>
               <a
                 className="btn PrimaryBtn"
-                href={list.demo_url}
+                href={list.demo_url.toString()}
                 target="_blank"
                 rel="noopener noreferrer"
               >
