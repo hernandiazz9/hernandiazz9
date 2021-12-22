@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Dropdown from "../Dropdown/Dropdown";
 import Header from "../Header/Header";
 import hero from '../../Assets2/hero.png'
+import scrollDownImg from '../../Assets2/scroll-down.svg'
 import {
   HeroContainer,
   HeroWrapper,
@@ -41,7 +42,7 @@ function Hero() {
           <ScrollLink>
             Scroll down
             <img
-              src="https://raw.githubusercontent.com/gurupawar/portfolio/main/assets/scroll-down.svg"
+              src={scrollDownImg}
               alt="scroll-down"
             />
           </ScrollLink>
