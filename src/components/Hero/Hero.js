@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import Dropdown from "../Dropdown/Dropdown";
 import Header from "../Header/Header";
-import hero from '../../Assets2/hero.png'
-import scrollDownImg from '../../Assets2/scroll-down.svg'
+import hero from '../../Assets 2/hero.png'
+import scrollDownImg from '../../Assets 2/scroll-down.svg'
 import {
   HeroContainer,
   HeroWrapper,
