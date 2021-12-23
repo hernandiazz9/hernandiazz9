@@ -60,30 +60,30 @@ export const ProjectList = [
 
 export const stackList = [
    {
-      img: "https://gurupawar.github.io/portfolio/assets/skill/html5.svg",
+      img: "https://icongr.am/devicon/html5-original-wordmark.svg?size=40&color=currentColor",
       name: "HTML",
     },
   
   {
-    img: "https://gurupawar.github.io/portfolio/assets/skill/css3.svg",
+    img: "https://icongr.am/devicon/css3-original-wordmark.svg?size=40&color=currentColor",
     name: "CSS",
   },
   {
-    img: "https://gurupawar.github.io/portfolio/assets/skill/javascript.svg",
+    img: "https://icongr.am/devicon/javascript-original.svg?size=40&color=currentColor",
     name: "JavaScript",
   },
   {
-    img: "https://gurupawar.github.io/portfolio/assets/skill/bootstrap.svg",
+    img: "https://icongr.am/devicon/bootstrap-plain-wordmark.svg?size=40&color=currentColor",
     name: "Bootstrap",
   },
   {
     img: firebase,
     name: "Firebase",
   },
-  {
-    img: "https://gurupawar.github.io/portfolio/assets/skill/git.svg",
-    name: "Git",
-  },
+  // {
+  //   img: "https://cdn4.iconfinder.com/data/icons/google-i-o-2016/512/google_firebase-2-512.png",
+  //   name: "Git",
+  // },
   
   {
     img: postgres,
