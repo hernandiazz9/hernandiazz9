@@ -26,7 +26,7 @@ function About() {
             several web development courses and a full stack bootcamp that
             thanks to that I have become a great developer of complete web applications.
           </div>
-          <div className="AboutBio tagline2"> Today, I am looking for a job that allows me to continue growing personally and professionally </div>
+          <div className="AboutBio tagline2"> Nowadays I am looking for a new challenge that allows me to continue growing personally and professionally </div>
           <div className="AboutBio tagline2">
             I have become confident using the following technologies.
           </div>
