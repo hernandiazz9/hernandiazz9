@@ -1,13 +1,28 @@
 import { BiChevronRight } from "react-icons/bi";
-import styled from "styled-components";
+import styled, {keyframes} from "styled-components";
 
+const ScrollAnimation = keyframes`
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateX(0);
+  }
+  40% {
+    transform: translateX(-20px);
+  }
+  60% {
+    transform: translateX(-10px);
+  }
+`;
 const RightArrow = styled.div`
   position: absolute;
   left: 50vw;
   top: 35%;
   font-size: 300px;
-
-  cursor:pointer;
+  animation: ${ScrollAnimation} 2s linear 0s infinite;
+  cursor: pointer;
   @media (max-width: 1700px) {
     left: 60vw;
     font-size: 300px;
@@ -21,8 +36,8 @@ const RightArrow = styled.div`
     font-size: 200px;
   }
   @media (max-width: 788px) {
-    left: 68vw;
-    font-size: 100px;
+    left: 60vw;
+    font-size: 130px;
   }
 `;
 
