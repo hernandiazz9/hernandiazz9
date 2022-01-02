@@ -37,7 +37,7 @@
   
  I have been doing several web development courses and a complete full stack bootcamp that allow me to become a great developer of modern and complete web applications.
 
-Today, I am looking for a job that allows me to continue growing personally and professionally</p>
+Nowadays I am looking for a new challenge that allows me to continue growing personally and professionally </p>
 
 ---
 
