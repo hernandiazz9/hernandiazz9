@@ -12,10 +12,10 @@ const ScrollAnimation = keyframes`
     transform: translateX(0);
   }
   40% {
-    transform: translateX(-20px);
+    transform: translateX(20px);
   }
   60% {
-    transform: translateX(-10px);
+    transform: translateX(10px);
   }
 `;
 const RightArrow = styled.div`
