@@ -1,5 +1,5 @@
 import React from "react";
-import { ProjectList } from "../../../data/ProjectData";
+
 import {
   Card,
   CardLeft,
@@ -7,7 +7,7 @@ import {
   Stack,
   BtnGroup,
 } from "./ProjectCardElements";
-function ProjectCard() {
+function ProjectCard({ ProjectList }) {
   return (
     <>
       {ProjectList.map((list, index) => (
