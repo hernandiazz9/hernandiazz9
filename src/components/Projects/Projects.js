@@ -1,8 +1,22 @@
 import React from "react";
 import ProjectCard from "./ProjectCard/ProjectCard";
+import { ProjectList } from "../../data/ProjectData";
+import Slider from "react-slick";
+import SliderArrowsRight from "./SlideArrows/SliderArrowsRight";
+import SliderArrowsLeft from "./SlideArrows/SliderArrowsLeft";
+
 function Projects() {
+  var settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    nextArrow: <SliderArrowsRight />,
+    prevArrow: <SliderArrowsLeft />,
+  };
   return (
-    <div style={{background:'#3DDC97', paddingBottom:'2rem'}}>
+    <div style={{ background: "#3DDC97", paddingBottom: "2rem" }}>
       <svg
         height="100%"
         width="100%"
@@ -22,8 +36,17 @@ function Projects() {
       </svg>
       <div className="ProjectWrapper" id="projects">
         <div className="Container">
-          <div style={{color:'black'}} className="SectionTitle">Projects</div>
-          <ProjectCard />
+          <div style={{ color: "black" }} className="SectionTitle">
+            Projects
+          </div>
+          <Slider {...settings}>
+            <div>
+              <ProjectCard ProjectList={ProjectList} />
+            </div>
+            <div>
+              <ProjectCard ProjectList={ProjectList} />
+            </div>
+          </Slider>
         </div>
       </div>
     </div>
