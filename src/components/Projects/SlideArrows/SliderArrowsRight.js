@@ -1,4 +1,6 @@
-import { BiChevronRight } from "react-icons/bi";
+
+import { FiChevronRight } from "react-icons/fi";
+
 import styled, {keyframes} from "styled-components";
 
 const ScrollAnimation = keyframes`
@@ -45,7 +47,7 @@ const SliderArrowsRigth = (props) => {
   const { onClick } = props;
   return (
     <RightArrow onClick={onClick}>
-      <BiChevronRight />
+      <FiChevronRight />
     </RightArrow>
   );
 };
