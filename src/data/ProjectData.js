@@ -1,9 +1,10 @@
 // --------------------------------------- Project List
 import appointManager from "../Assets/projects/appointManager.png";
-import courseManager from '../Assets/projects/courseManager.png'
+import courseManager from "../Assets/projects/courseManager.png";
 import coi from "../Assets/projects/coi.png";
-// import crudRedux from "../Assets/projects/crudRedux.png";
+import crudRedux from "../Assets/projects/crudRedux.png";
 import mernTask from "../Assets/projects/mernTask.png";
+import diezmil from "../Assets/projects/diezmil.png";
 import firebase from "../Assets/stackTech/firebase.png";
 import mongo from "../Assets/stackTech/mongo.png";
 import node from "../Assets/stackTech/node.png";
@@ -44,6 +45,26 @@ export const ProjectList = [
     tech_stack: "Next js, Apollo, GraphQL, Node js, MongoDB",
     github_url: "https://github.com/hernandiazz9/courseManagerFront",
     demo_url: "https://course-manager-challange.vercel.app/",
+  },
+  {
+    img: diezmil,
+    title: "10mil Game ",
+    description:
+      "Online DICE game. Login and create a room, invite your friends with the room name to start playing in real time",
+    tech_stack: "React - Redux - Firebase",
+    github_url: "https://github.com/hernandiazz9/diezmilRedux2",
+    demo_url: "https://diezmil-dice-game.netlify.app/login",
+  },
+];
+export const ProjectList2 = [
+  {
+    img: crudRedux,
+    title: "Crud React Redux ",
+    description:
+      "application for budget control, adding, editing and deleting products and price and saving in local DB",
+    tech_stack: "React, Redux, JSON server",
+    github_url: "https://github.com/hernandiazz9/crudreactredux.git",
+    demo_url: "https://github.com/hernandiazz9/crudreactredux.git",
   },
   {
     img: appointManager,

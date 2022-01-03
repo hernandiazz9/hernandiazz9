@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectCard from "./ProjectCard/ProjectCard";
-import { ProjectList } from "../../data/ProjectData";
+import { ProjectList, ProjectList2 } from "../../data/ProjectData";
 import Slider from "react-slick";
 import SliderArrowsRight from "./SlideArrows/SliderArrowsRight";
 import SliderArrowsLeft from "./SlideArrows/SliderArrowsLeft";
@@ -44,7 +44,7 @@ function Projects() {
               <ProjectCard ProjectList={ProjectList} />
             </div>
             <div>
-              <ProjectCard ProjectList={ProjectList} />
+              <ProjectCard ProjectList={ProjectList2} />
             </div>
           </Slider>
         </div>
