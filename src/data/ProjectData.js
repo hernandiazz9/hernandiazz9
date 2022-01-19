@@ -53,7 +53,7 @@ export const ProjectList = [
       "Online DICE game. Login and create a room, invite your friends with the room name to start playing in real time",
     tech_stack: "React - Redux - Firebase",
     github_url: "https://github.com/hernandiazz9/diezmilRedux2",
-    demo_url: "https://diezmil-dice-game.netlify.app/login",
+    demo_url: "https://diezmil-dice-game.netlify.app/",
   },
 ];
 export const ProjectList2 = [
