@@ -25,7 +25,7 @@ export const ProjectList = [
       "Self-manageable web application so that the user can upload the products on their own",
     tech_stack: "Next js, GraphQL, DatoCMS",
     github_url: "https://github.com/hernandiazz9/coinext",
-    demo_url: "https://coinext.vercel.app/",
+    demo_url: "https://cirugiaoseainstrumental.vercel.app/",
   },
   {
     img: mernTask,
@@ -53,7 +53,7 @@ export const ProjectList = [
       "Online DICE game. Login and create a room, invite your friends with the room name to start playing in real time",
     tech_stack: "React - Redux - Firebase",
     github_url: "https://github.com/hernandiazz9/diezmilRedux2",
-    demo_url: "https://diezmil-dice-game.netlify.app/login",
+    demo_url: "https://diezmil-dice-game.netlify.app/",
   },
 ];
 export const ProjectList2 = [
