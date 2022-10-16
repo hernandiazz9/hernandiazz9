@@ -25,7 +25,7 @@ export const ProjectList = [
       "Self-manageable web application so that the user can upload the products on their own",
     tech_stack: "Next js, GraphQL, DatoCMS",
     github_url: "https://github.com/hernandiazz9/coinext",
-    demo_url: "https://coinext.vercel.app/",
+    demo_url: "https://cirugiaoseainstrumental.vercel.app/",
   },
   {
     img: mernTask,
